@@ -1,6 +1,6 @@
 # SEG_HumanEvaluationReasons
 
-This is the appendix file for "Toward a Better Story End: Collecting Human Evaluation with Reasons".
+This is the appendix file of "Toward a Better Story End: Collecting Human Evaluation with Reasons" by Yusuke Mori, Hiroaki Yamane, Yusuke Mukuta and Tatsuya Harada (INLG 2019).
 
 ## Contents
 It includes the following item.
