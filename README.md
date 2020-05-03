@@ -17,29 +17,5 @@ It includes the following item.
         - model1 : It indicates which A or B is the generated ending by H-Seq2seq.
         - answer_correspondence : It indicates the "answer" above is corresponding to which of "Human", "Generated", "Both" or "Neither".
 
-## Correction of the Paper
-There was a bug in the code that aggregated the data, and some numbers were wrong. This does not affect the assertion of the paper.
-
-In Table 2 in the paper, the values below are incorrect.
-
-| H-Seq2seq | Human  | both | neither |
-| -------- | --- | ---- | ------- |
-| 3         |180     |16      |1         |
-
-The correct numbers are:
-
-| H-Seq2seq | Human  | both | neither |
-| -------- | --- | ---- | ------- |
-| 4         |179     |16      |1         |
-
-In the Discussion section, we wrote 
-```
-However, 20 stories were evaluated to be equal to or better than an ending written by humans.
-```
-and it should be
-```
-However, 21 stories were evaluated to be equal to or better than an ending written by humans.
-```
-
 ## Copyright
 This dataset will be published under the Creative Commons Attribution-ShareAlike 4.0 License.
